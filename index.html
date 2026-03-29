@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<title>我的私人朋友圈</title>
-<style>
-body{max-width:700px;margin:40px auto;padding:0 20px;background:#f7f8fa}
-.moment{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 1px 3px #00000012}
-.time{color:#999;font-size:12px;margin-bottom:8px}
-.content{font-size:15px;line-height:1.6}
-img{max-width:100%;border-radius:8px;margin-top:10px}
-</style>
+    <meta charset="UTF-8">
+    <title>我的私人朋友圈</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+        body { max-width: 700px; margin: 30px auto; padding: 20px; background: #f5f5f5; }
+        .title { text-align: center; margin-bottom: 30px; color: #333; }
+        .moment { background: white; padding: 20px; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 1px 3px #0000001a; }
+        .time { color: #999; font-size: 12px; margin-bottom: 8px; }
+        .content { font-size: 15px; line-height: 1.6; color: #333; margin-bottom: 10px; }
+        .image { max-width: 100%; border-radius: 8px; margin-top: 8px; }
+    </style>
 </head>
 <body>
-<h2>我的朋友圈</h2>
+    <h1 class="title">我的私人朋友圈</h1>
 
-<div class="moment">
-<div class="time">2026-03-29</div>
-<div class="content">今天很开心～</div>
-</div>
+    <!-- 在这里添加你的动态 -->
+    <div class="moment">
+        <div class="time">2026-03-29 15:30</div>
+        <div class="content">今天天气超好，心情也很棒～</div>
+        <img src="images/1.jpg" class="image">
+    </div>
+
+    <div class="moment">
+        <div class="time">2026-03-28</div>
+        <div class="content">记录生活 ✨</div>
+    </div>
 
 </body>
 </html>
